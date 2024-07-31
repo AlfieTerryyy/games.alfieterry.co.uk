@@ -34,6 +34,10 @@ section {
     margin-bottom: 2rem;
 }
 
+form {
+    margin-bottom: 1rem;
+}
+
 button {
     background: #555;
     color: #fff;
@@ -42,9 +46,17 @@ button {
     cursor: pointer;
 }
 
-button a {
-    color: #fff;
-    text-decoration: none;
+button:hover {
+    background: #666;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 0.5rem;
 }
 
 footer {
